@@ -4,22 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inline Style</title>
+
+    <style type="text/css">
+        #principal{
+            background-color: lightgrey;
+        }
+        .azul{
+            color: dodgerblue;
+        }
+        .darkgrey{
+            color: darkslateblue;
+        }
+        h1{
+            font-style: italic;
+            font-family: sans-serif;
+        }
+        p{
+            font-style: italic;
+            font-size: medium;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #cabecalho{
+            background: darkgrey;
+        }
+        
+        
+    </style>
 </head>
-<body >
+<header></header>
+<body id="principal">
+    <div>
+        <div id="cabecalho">
+            <img src="imagens/logo.png" alt="">
+            <ul>
+                <li>Home</li>
+                <li>Quem somos</li>
+                <li>Contato</li>
+
+            </ul>
+        </div>
+
+        <div id="conteudo-principal">
+            <div class="coluna" >
+               COLUNA 1
+            </div>
+
+            <div class="coluna">
+                COLUNA 2
+             </div>
+
+             <div class="coluna">
+                COLUNA 3
+             </div>
+        </div>
+    </div>
     <h1>Estilo CSS (cascading style sheets)</h1>
-    <p >
+    <p class="azul">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper, ante nec aliquam vulputate, leo nibh consectetur ipsum, id dictum risus felis at ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla tortor tellus, bibendum sed eros at, convallis finibus nunc. Quisque tortor felis, maximus et finibus quis, tempor scelerisque nisi. 
     </p>
 
-    <p >
+    <p class="darkgrey">
         Cras egestas, erat vitae maximus finibus, ex dui mollis velit, sed interdum metus dui id massa. Morbi tellus elit, tincidunt sed bibendum a, vehicula eleifend nisl. Ut quis nunc enim. Vivamus at neque massa. Quisque sed mi orci. Vestibulum interdum metus at sem vehicula, eget mattis purus interdum. Duis dictum, arcu non tristique efficitur, tortor eros luctus nunc, ut tempor odio massa vel nisl. Proin mollis tellus tortor, id mattis ipsum blandit quis.
     </p><br>
+
     <h1>Formatações</h1>
-        <p >
+    <p class="darkgrey">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper, ante nec aliquam vulputate, leo nibh consectetur ipsum, id dictum risus felis at ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla tortor tellus, bibendum sed eros at, convallis finibus nunc. Quisque tortor felis, maximus et finibus quis, tempor scelerisque nisi. 
     </p>
     
-    <p >
+    <p class="azul">
         Cras egestas, erat vitae maximus finibus, ex dui mollis velit, sed interdum metus dui id massa. Morbi tellus elit, tincidunt sed bibendum a, vehicula eleifend nisl. Ut quis nunc enim. Vivamus at neque massa. Quisque sed mi orci. Vestibulum interdum metus at sem vehicula, eget mattis purus interdum. Duis dictum, arcu non tristique efficitur, tortor eros luctus nunc, ut tempor odio massa vel nisl. Proin mollis tellus tortor, id mattis ipsum blandit quis.
     </p>
     
